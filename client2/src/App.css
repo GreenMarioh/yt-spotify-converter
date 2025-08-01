@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #5a6268;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+}
+
+.spotify {
+  background-color: #1DB954;
+}
+
+.youtube {
+  background-color: #FF0000;
+}
+
+.connections {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.connection-box {
+  border: 1px solid #444;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #333842;
+}
+
+.connected-text {
+  color: #1DB954;
+  font-weight: bold;
+}
+
+.fetch-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.fetch-button:hover {
+  background-color: #666;
+}
+
+.playlists-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.playlist-column {
+  width: 45%;
+}
+
+.playlist-column h3 {
+  border-bottom: 2px solid #1DB954;
+  padding-bottom: 5px;
+}
+
+.playlist-column ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.playlist-column li {
+  background-color: #3a3f4a;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.playlist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.convert-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  background-color: #e3e3e3;
+}
+
+.convert-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
