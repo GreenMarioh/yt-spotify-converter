@@ -1,23 +1,27 @@
 # Spotify <---> YouTube Playlist Converter 🎵➡️📺
 
-This project allows you to convert a Spotify playlist into a private YouTube playlist by searching for matching videos (usually official audio) on YouTube and vice versa.
+A web application to convert your Spotify playlists into YouTube playlists and vice versa. This project uses the official APIs from both services to provide a seamless transfer of your music libraries.
 
 ## 🔧 Features
 
-- Login with Spotify and YouTube using OAuth2
-- Fetch and display playlists from both platforms
-- Convert Spotify playlists to YouTube playlists and vice versa.
-- Automatically searches for official audio on YouTube
-- Uses YouTube Data API v3 to create and add videos to a new playlist
+- **Spotify to YouTube Conversion**: Select one of your Spotify playlists and automatically create a new YouTube playlist containing matching music videos.
+- **YouTube to Spotify Conversion**: Convert a YouTube playlist into a new Spotify playlist.
+- **Secure Authentication**: Uses the OAuth 2.0 protocol to securely connect to your accounts without ever storing your passwords.
+- **Simple Interface**: A clean, straightforward UI built with React.
 
 ---
+
+### Prerequisites
+
+- Node.js and npm installed on your system.
+- API keys from Spotify and Google Cloud (see next section).
 
 ## 🚀 How to Run This Project
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/spotify-youtube-converter.git
+git clone https://github.com/GreenMarioh/yt-spotify-converter.git
 cd spotify-youtube-converter
 ```
 
