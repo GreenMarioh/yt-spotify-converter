@@ -22,7 +22,7 @@ A web application to convert your Spotify playlists into YouTube playlists and v
 
 ```bash
 git clone https://github.com/GreenMarioh/yt-spotify-converter.git
-cd spotify-youtube-converter
+cd yt-spotify-converter
 ```
 
 ### 2. Install dependencies
