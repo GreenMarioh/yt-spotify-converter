@@ -9,6 +9,8 @@ A web application to convert your Spotify playlists into YouTube playlists and v
 - **Secure Authentication**: Uses the OAuth 2.0 protocol to securely connect to your accounts without ever storing your passwords.
 - **Simple Interface**: A clean, straightforward UI built with React.
 
+![Demo Screenshot](https://greenmario.hep.gg/RqxhkQzTv.png)
+
 ---
 
 ### Prerequisites
